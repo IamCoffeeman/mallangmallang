@@ -1,0 +1,15 @@
+.Question {
+  margin: 10px;
+  width: 100%;
+}
+
+.Answer {
+  margin: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.chattingField {
+  margin-top: "10px";
+  height: 80%;
+}
