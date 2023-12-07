@@ -25,26 +25,37 @@ export default function MenuAppBar() {
     <Box
       sx={{
         flexGrow: 1,
-        width: "80%",
-        margin: "0 auto",
+        width: "83%",
       }}
     >
-      <AppBar position="static" sx={{ borderRadius: 2 }}>
-        <Toolbar>
+      <AppBar
+        position="static"
+        sx={{
+          position: "relative",
+          left: "13.5%",
+          backgroundColor: "white",
+          boxShadow: "none",
+          borderRadius: 3,
+          color: "black",
+          border: 0,
+          marginTop: "15px",
+        }}
+      >
+        <Toolbar className="navbar">
           <IconButton
             size="large"
             edge="start"
-            color="inherit"
+            color="black"
             aria-label="menu"
             sx={{ mr: 2 }}
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            답파고
+          <Typography variant="h5" sx={{ flexGrow: 1 }}>
+            <strong>답파고</strong>
           </Typography>
           {true && (
-            <div className="navbar">
+            <div>
               <IconButton
                 size="large"
                 aria-label="account of current user"

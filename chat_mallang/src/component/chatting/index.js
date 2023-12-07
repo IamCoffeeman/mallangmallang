@@ -9,33 +9,31 @@ import PsychologyIcon from "@mui/icons-material/Psychology";
 function Chatting() {
   return (
     <Paper
-      component="form"
       sx={{
-        border: "solid 0",
-        p: "2px 4px",
-        display: "relative",
-        width: 1355,
-        height: "88%",
+        width: "105%",
         backgroundColor: "#F3F6FC",
-        overflow: "scroll",
-        overflowX: "hidden",
-        fontSize: "1.5em",
-        lineHeight: 4,
+        boxShadow: "none",
       }}
     >
       <Grid
         container
         direction="column"
         justifyContent="flex-start"
-        alignItems="flex-start"
+        alignItems="center"
+        sx={{
+          fontSize: "1.5em",
+          lineHeight: 4,
+          overflow: "scroll",
+          overflowX: "hidden",
+        }}
       >
-        <Grid item style={{ width: "98%" }}>
+        <Grid item style={{ width: "80%" }}>
           <p
             className="Question"
             style={{
               marginLeft: "35px",
               marginRight: "35px",
-              marginBottom: "35px",
+              marginBottom: "50px",
             }}
           >
             <AccountCircleIcon
@@ -46,7 +44,7 @@ function Chatting() {
             </span>
           </p>
         </Grid>
-        <Grid item style={{ width: "98%" }}>
+        <Grid item style={{ width: "80%" }}>
           <Card
             className="Answer"
             sx={{ borderRadius: 10, position: "relative", bottom: "60px" }}

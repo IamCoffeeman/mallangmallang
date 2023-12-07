@@ -5,3 +5,11 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.App-header {
+  position: relative;
+  display: "flex";
+  justify-content: "center";
+}
+.App {
+  background-color: "#F3F6FC";
+}
