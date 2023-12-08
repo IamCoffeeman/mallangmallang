@@ -1,0 +1,15 @@
+.chattingField {
+  height: 80%;
+  display: grid;
+  grid-template-rows: 750px 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.App-header {
+  position: relative;
+  display: "flex";
+  justify-content: "center";
+}
+.App {
+  background-color: "#F3F6FC";
+}
