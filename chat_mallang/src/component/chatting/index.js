@@ -5,6 +5,7 @@ import "./index.css";
 import Card from "@mui/material/Card";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import PsychologyIcon from "@mui/icons-material/Psychology";
+import QuestionField from "../searchbox";
 
 function Chatting() {
   return (
@@ -21,13 +22,16 @@ function Chatting() {
         justifyContent="flex-start"
         alignItems="center"
         sx={{
+          width: "100%",
           fontSize: "1.5em",
-          lineHeight: 4,
+          lineHeight: 2.25,
           overflow: "scroll",
           overflowX: "hidden",
+          position: "relative",
+          left: "-30px",
         }}
       >
-        <Grid item style={{ width: "80%" }}>
+        <Grid item style={{ width: "70%" }}>
           <p
             className="Question"
             style={{
@@ -36,18 +40,36 @@ function Chatting() {
               marginBottom: "50px",
             }}
           >
-            <AccountCircleIcon
+            {/* <AccountCircleIcon
+              fontSize="large"
               sx={{ marginTop: "20px", marginRight: "20px" }}
-            />
-            <span style={{ position: "relative", top: "-4px" }}>
+            /> */}
+            {/* <span
+              style={{ position: "relative", top: "-4px", fontSize: "1.6em" }}
+            >
               배달의민족에서 카카오페이 결제 하는 방법 알려줘.
-            </span>
+            </span> */}
+            <div
+              style={{
+                position: "relative",
+                right: "2%",
+                marginBottom: "6%",
+                marginTop: "2%",
+              }}
+            >
+              <QuestionField />
+            </div>
           </p>
         </Grid>
-        <Grid item style={{ width: "80%" }}>
+        <Grid item style={{ width: "70%" }}>
           <Card
             className="Answer"
-            sx={{ borderRadius: 10, position: "relative", bottom: "60px" }}
+            sx={{
+              borderRadius: 10,
+              position: "relative",
+              bottom: "60px",
+              boxShadow: "none",
+            }}
           >
             <PsychologyIcon
               fontSize="large"

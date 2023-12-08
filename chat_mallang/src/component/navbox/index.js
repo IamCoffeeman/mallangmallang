@@ -25,14 +25,14 @@ export default function MenuAppBar() {
     <Box
       sx={{
         flexGrow: 1,
-        width: "83%",
+        width: "73%",
       }}
     >
       <AppBar
         position="static"
         sx={{
           position: "relative",
-          left: "13.5%",
+          left: "19.5%",
           backgroundColor: "white",
           boxShadow: "none",
           borderRadius: 3,

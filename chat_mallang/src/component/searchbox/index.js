@@ -7,24 +7,23 @@ import SearchIcon from "@mui/icons-material/Search";
 function QuestionField() {
   return (
     <Paper
-      component="form"
       sx={{
-        p: "2px 4px",
         width: "100%",
-        height: "80%",
+        height: "100px",
         display: "flex",
-        borderRadius: 3,
+        borderRadius: 10,
         opacity: 1,
+        boxShadow: "none",
         // bgcolor: "#F3F6FC",
       }}
     >
       <InputBase
-        sx={{ ml: 1, flex: 1 }}
+        sx={{ ml: 10, flex: 1, fontSize: "1em" }}
         placeholder="질문을 입력하세요."
         inputProps={{ "aria-label": "search google maps" }}
       />
-      <IconButton type="button" sx={{ p: "10px" }} aria-label="search">
-        <SearchIcon />
+      <IconButton type="button" sx={{ mr: 10 }} aria-label="search">
+        <SearchIcon fontSize="large" />
       </IconButton>
     </Paper>
   );
