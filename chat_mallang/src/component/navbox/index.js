@@ -35,7 +35,7 @@ export default function MenuAppBar() {
           left: "19.5%",
           backgroundColor: "white",
           boxShadow: "none",
-          borderRadius: 3,
+          borderRadius: 10,
           color: "black",
           border: 0,
           marginTop: "15px",
