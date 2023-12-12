@@ -2,9 +2,7 @@ import * as React from "react";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import "./index.css";
-import Card from "@mui/material/Card";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import PsychologyIcon from "@mui/icons-material/Psychology";
 import QuestionField from "../searchbox";
 
 function Chatting() {
@@ -61,7 +59,7 @@ function Chatting() {
             </div>
           </p>
         </Grid>
-        <Grid item style={{ width: "70%" }}>
+        {/* <Grid item style={{ width: "70%" }}>
           <Card
             className="Answer"
             sx={{
@@ -75,13 +73,14 @@ function Chatting() {
               fontSize="large"
               sx={{ margin: "20px", float: "left" }}
             />
-            <p
+            <div
               style={{
                 marginLeft: "70px",
                 marginRight: "35px",
                 marginBottom: "35px",
               }}
             >
+              {}
               배달의민족 앱에서 카카오페이로 결제하는 방법은 다음과 같습니다:
               <br />
               배달의민족 앱을 실행합니다. 음식을 선택하고 주문을 진행합니다.
@@ -105,9 +104,9 @@ function Chatting() {
               <br />
               선택하여 손쉽게 결제를 진행할 수 있습니다.
               <br />
-            </p>
+            </div>
           </Card>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Paper>
   );
