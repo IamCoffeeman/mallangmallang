@@ -23,7 +23,7 @@ class Rag:
         guide = []
         for file in fileList:
             tmp = pd.read_csv(
-                f"../guides/{file['eng']}.txt",
+                f"./guides/{file['eng']}.txt",
                 sep="\n\n",
                 names=["text"],
                 engine="python",
@@ -34,7 +34,7 @@ class Rag:
 
     # keys.csv에 저장된 key들을 딕셔너리로 가져옴
     def getKeys(self):
-        df = pd.read_csv("keys.csv")
+        df = pd.read_csv("./codes/keys.csv")
         keys = {}
         for _, row in df.iterrows():
             keys[row["module"]] = row["key"]

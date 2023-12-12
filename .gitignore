@@ -1,1 +1,5 @@
 codes/keys.csv
+backend/__pycache__/
+backend/migrations/__pycache__/
+codes/__pycache__/
+mallang/__pycache__/
