@@ -79,5 +79,6 @@ class Rag:
             model="gpt-3.5-turbo",
             # 전달 메세지
             messages=[{"role": "user", "content": prompt}],
+            temperature=0
         )
         return response.choices[0].message.content

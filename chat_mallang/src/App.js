@@ -8,20 +8,27 @@ import { useEffect, useState } from "react";
 import MiniSearch from "./component/searchmini";
 
 function App() {
-  const [visible, setVisible] = useState(true);
+  // const [visible, setVisible] = useState(true);
 
-  useEffect(() => {
-    window.addEventListener("scroll", function () {
-      if (window.scrollY === 0) {
-        setVisible(true);
-      } else {
-        setVisible(false);
-      }
-    });
-  }, [window.scrollY]);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", function () {
+  //     if (window.scrollY === 0) {
+  //       setVisible(true);
+  //     } else {
+  //       setVisible(false);
+  //     }
+  //   });
+  // }, [window.scrollY]);
 
   return (
-    <Paper sx={{ backgroundColor: "#F3F6FC", overflowX: "hidden" }}>
+    <Paper
+      sx={{
+        backgroundColor: "#F3F6FC",
+        overflowX: "hidden",
+        boxShadow: "none",
+        height: "100%",
+      }}
+    >
       <header className="App-header">
         <MenuAppBar />
       </header>
