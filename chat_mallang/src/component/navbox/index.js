@@ -9,6 +9,7 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import "./index.css";
+import Divider from "@mui/material/Divider";
 
 export default function MenuAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -24,6 +25,8 @@ export default function MenuAppBar() {
   return (
     <Box
       sx={{
+        marginTop: "-1.5%",
+        height: "100px",
         flexGrow: 1,
         width: "73%",
       }}
@@ -34,25 +37,20 @@ export default function MenuAppBar() {
           position: "relative",
           left: "19.5%",
           backgroundColor: "white",
+          // backgroundColor: "#F3F6FC",
           boxShadow: "none",
-          borderRadius: 10,
-          color: "black",
-          border: 0,
+          // borderRadius: 10,
+          color: "#C7DCA7",
+          // border: "1px",
+          // borderStyle: "none none solid none",
           marginTop: "15px",
         }}
       >
         <Toolbar className="navbar">
-          <IconButton
-            size="large"
-            edge="start"
-            color="black"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
           <Typography variant="h5" sx={{ flexGrow: 1 }}>
-            <strong>답파고</strong>
+            <p style={{ fontSize: "1.5em" }}>
+              <strong>DAPPHAGO</strong>
+            </p>
           </Typography>
           {true && (
             <div>
@@ -89,6 +87,16 @@ export default function MenuAppBar() {
           )}
         </Toolbar>
       </AppBar>
+      <Divider
+        sx={{
+          position: "relative",
+          left: "19.5%",
+          top: "-20px",
+          borderBottomWidth: 5,
+          borderRadius: 10,
+          // backgroundColor: "#AFC8AD",
+        }}
+      />
     </Box>
   );
 }

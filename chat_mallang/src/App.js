@@ -23,7 +23,7 @@ function App() {
   return (
     <Paper
       sx={{
-        backgroundColor: "#F3F6FC",
+        // backgroundColor: "#F3F6FC",
         overflowX: "hidden",
         boxShadow: "none",
         height: "100%",
