@@ -25,6 +25,7 @@
 ---
 
 3. 기술 스택
+
 [![stackticon](https://firebasestorage.googleapis.com/v0/b/stackticon-81399.appspot.com/o/images%2F1710301223585?alt=media&token=6be2ef24-0387-4fd7-b4bf-8cff53bce38a)](https://github.com/msdio/stackticon)
 ---
 
