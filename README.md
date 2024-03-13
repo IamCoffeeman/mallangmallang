@@ -10,9 +10,7 @@
 
 **팀 소개**
 
-※ 이미지 수정 예정 ※
-
-![2](https://github.com/minzy213/mallangmallang/assets/140465121/0c04b042-57c6-47f8-a038-76f35675d439)
+![2](https://github.com/minzy213/mallangmallang/assets/140465121/1ea67360-4c1f-4236-8519-b174885e7d1e)
 
 ---
 
