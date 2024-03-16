@@ -32,11 +32,23 @@
 
 **2. 시작 가이드**
 
-[] 요구사항
+설치 및 실행방법
 
-[] 설치 및 실행방법
+Requirements.txt 설치
 
-[] 적용 가이드까지만 정리하기
+pinecone, openai api key 발급 - codes/keys.csv에  발급받은 api key 입력
+
+-React
+
+cd chat_mallng
+
+norm start
+
+-py
+
+from codes.Rag import Rag
+
+rag.getAnswer(question, 5)
 
 ---
 
