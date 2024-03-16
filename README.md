@@ -73,3 +73,7 @@ rag.getAnswer(question, 5)
 ![답파고 첨부용](https://github.com/minzy213/mallangmallang/assets/140465121/bc5fa0c2-da71-46cd-9832-26aa959a69a2)
 
 ---
+
+**출처**
+
+프로젝트 원본 repository : https://github.com/minzy213/mallangmallang
